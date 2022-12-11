@@ -1,0 +1,24 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="../static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <title>{{ title }} - Book library</title>
+</head>
+<body>
+  <header id="logo"><h3>Edinburgh Library</h3> </header> 
+  <nav> 
+  <ul>
+    <li class="headlist"><a href="/">Home</a></li>
+    <li class="headlist"><a href="/">Shop</a></li>
+    <li class="headlist"><a href="/">Contact</a></li>
+  </ul>
+  </nav>
+ 
+  <div><hr class="divider"></div>
+  {% block content %}{% endblock %}
+</body>
+
+</html>
+  
+ 
